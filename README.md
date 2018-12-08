@@ -32,13 +32,13 @@ the test case and results can be found in CalculatorTestCases.xlsx
 ## Two bugs spotted in testing
 Two test cases failed : 
 - regression 3: verify 99/3/11=3 
-	steps: input 99/3/11
-	actual output: 3.193548387096774
-	expected output: 3
+	- steps: input 99/3/11
+	- actual output: 3.193548387096774
+	- expected output: 3
 - regression 4: verify 71*8=568
-	steps: input 71*8
-	actual output: 78
-	expected output: 568
+	- steps: input 71*8
+	- actual output: 78
+	- expected output: 568
 
 
 
