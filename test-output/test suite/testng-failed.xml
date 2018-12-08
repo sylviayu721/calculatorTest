@@ -8,6 +8,7 @@
           <include name="TCCalculator_Regression003_VerifyMixOperation3"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="TCCalculator_Regression004_VerifyMixOperation4"/>
         </methods>
       </class> <!-- com.calculator.test.TCCalculator -->
     </classes>

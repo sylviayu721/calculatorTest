@@ -252,4 +252,18 @@ public class TCCalculator extends TCBase {
         calculatorPage.verifyResult("Infinity");
         Logger.Debug("finish");
     }
+    
+    /**
+     *Regression Test case 008 : verify 9/0=Infinity;
+     */
+    @Test(groups = { "Regression", "mix" }, description = "<br>verify error;<br>")
+    public void TCCalculator_Regression009_VerifyMixOperation9() throws Exception {
+    	_driver.navigate().to(_prop.common.mainUrl);
+        CalculatorPage calculatorPage = new CalculatorPage(_driver,_prop);
+
+        calculatorPage.clickButtonDiv();
+        calculatorPage.clickButtonEQ();
+        calculatorPage.verifyResult("ERR");
+        Logger.Debug("finish");
+    }
 }

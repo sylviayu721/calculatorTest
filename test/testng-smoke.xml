@@ -18,6 +18,8 @@
 					<include name="TCCalculator_Regression006_VerifyMixOperation6" /> 
 					<include name="TCCalculator_Regression007_VerifyMixOperation7" /> 
 					<include name="TCCalculator_Regression008_VerifyMixOperation8" />
+					<include name="TCCalculator_Regression009_VerifyMixOperation9" />
+					
 				</methods>
 			</class>
 		</classes>

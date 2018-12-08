@@ -1,22 +1,44 @@
 
 
-# Framework to Test A Basic Arithmetic Calculator User Interface
+# Introduction
+This is my homework for the interview of LogMeIn Automation developer position. It is a automation test project to test the web Calculator at http://output.jsbin.com/hudape/1/
 	
 ## Description
-- Based on Calculator User Interface, I chose to use front end testing framework (Java+Seleinum+maven+TestNG);
-- The project has 3 parts:
-	- com.calculator.page contains one basic WebPage parent Class in which 3 basic common methods are defined, such as clickElement,verifyElementVisible and verifyElementText. CalculatorPage class be children class, in which specific methods will be defined, such as click every button and verify the result.
-	
-	- com.calculator.test contains one basic TCBase parent Class, in which two methods are defined, such as beforeTest and AfterTest. Calculator Children Class define all smoke and regression test cases.
+- This java project utilize Seleinum+maven+TestNG. I use eclipse as my development IDE.
+- To run it
+	1. install eclipse
+	2. install TestNG for eclipse
+	3. open project in eclipse, right click test/testng-smoketest.xml, then select [Run As]->[TestNG Suite]
+	4. test report can be found under test-output/index.html
 
-	- com.calculator.utils contains methods and functions to write logs and read and load property file - Page_properties.json
+## Test cases
+- smoke 1: verify 1 + 2 = 3 and then delelte all
+- smoke 2: verify 9 - 3 = 6 and then delelte all
+- smoke 3: verify 4 * 5 = 20 and then delelte all
+- smoke 4: verify 8 / 4 = 2;
+- smoke 5: verify 7*1+6/2-0 = 10
+- regression 1: verify 12*34+56/7=416
+- regression 2: verify 78*19-46/23=1480
+- regression 3: verify 99/3/11=3
+- regression 4: verify 71*8=568;
+- regression 5: verify 61-1-4=56
+- regression 6: verify 45+4+5=54
+- regression 7: verify 0/99=0
+- regression 8: verify 9/0=Infinity
+- regression 9: verify /=ERR
 
-## Two big bugs
-Bug 1:when divisor number start from 1 and equal or more than two bits numbers will fail.
-for example: 9/11, 9/12, 9/130 etc.
+the test case and results can be found in CalculatorTestCases.xlsx
 
-Bug 2:when Multiplicand number is equal or more than two bits and the last number is 1, then Multiplication function will fail.
-for example: 21*3, 51*3, 621*3 etc.
+## Two bugs spotted in testing
+Two test cases failed : 
+- regression 3: verify 99/3/11=3 
+	steps: input 99/3/11
+	actual output: 3.193548387096774
+	expected output: 3
+- regression 4: verify 71*8=568
+	steps: input 71*8
+	actual output: 78
+	expected output: 568
 
-## Attached AutomationTestResult.xls
+
 
