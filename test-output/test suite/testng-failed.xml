@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.calculator.test.TCCalculator">
+        <methods>
+          <include name="TCCalculator_Regression003_VerifyMixOperation3"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.calculator.test.TCCalculator -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [test suite] -->

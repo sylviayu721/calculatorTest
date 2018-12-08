@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-test_suite">
+              <span class="suite-name border-failed">test suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-test_suite">
+                    <span>C:\Users\Owner\eclipse-workspace\calculatorTest\test\testng-smoke.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-test_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-test_suite">
+                    <span>7 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-test_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-test_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-test_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-test_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-test_suite" class="hide-methods failed suite-test_suite"> (hide)</a> <!-- hide-methods failed suite-test_suite -->
+                      <a href="#" panel-name="suite-test_suite" class="show-methods failed suite-test_suite"> (show)</a> <!-- show-methods failed suite-test_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-test_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression003_VerifyMixOperation3">TCCalculator_Regression003_VerifyMixOperation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-test_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-test_suite" class="hide-methods passed suite-test_suite"> (hide)</a> <!-- hide-methods passed suite-test_suite -->
+                      <a href="#" panel-name="suite-test_suite" class="show-methods passed suite-test_suite"> (show)</a> <!-- show-methods passed suite-test_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-test_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression001_VerifyMixOperation1">TCCalculator_Regression001_VerifyMixOperation1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression002_VerifyMixOperation2">TCCalculator_Regression002_VerifyMixOperation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression004_VerifyMixOperation4">TCCalculator_Regression004_VerifyMixOperation4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression005_VerifyMixOperation5">TCCalculator_Regression005_VerifyMixOperation5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression006_VerifyMixOperation6">TCCalculator_Regression006_VerifyMixOperation6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression007_VerifyMixOperation7">TCCalculator_Regression007_VerifyMixOperation7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Regression008_VerifyMixOperation8">TCCalculator_Regression008_VerifyMixOperation8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Smoke001_VerifyOnePlusTwo">TCCalculator_Smoke001_VerifyOnePlusTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Smoke002_VerifyNineMinusThree">TCCalculator_Smoke002_VerifyNineMinusThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Smoke003_VerifyFourMultiFive">TCCalculator_Smoke003_VerifyFourMultiFive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Smoke004_VerifyEightDivFour">TCCalculator_Smoke004_VerifyEightDivFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-test_suite" title="com.calculator.test.TCCalculator" hash-for-method="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero">TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-test_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-test_suite" class="panel test_suite">
+          <div class="suite-test_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.calculator.test.TCCalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression003_VerifyMixOperation3">
+                  </a> <!-- TCCalculator_Regression003_VerifyMixOperation3 -->
+                  <span class="method-name">TCCalculator_Regression003_VerifyMixOperation3</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;3[.193548387096774]&gt; but was:&lt;3[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.calculator.page.WebPage.verifyElementText(WebPage.java:48)
+	at com.calculator.page.CalculatorPage.verifyResult(CalculatorPage.java:89)
+	at com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3(TCCalculator.java:169)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(<br>verify 99/3/11=3;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_suite-class-failed -->
+          <div class="suite-test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.calculator.test.TCCalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression001_VerifyMixOperation1">
+                  </a> <!-- TCCalculator_Regression001_VerifyMixOperation1 -->
+                  <span class="method-name">TCCalculator_Regression001_VerifyMixOperation1</span>
+                  <em>
+(<br>verify 12*34+56/7=416;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression002_VerifyMixOperation2">
+                  </a> <!-- TCCalculator_Regression002_VerifyMixOperation2 -->
+                  <span class="method-name">TCCalculator_Regression002_VerifyMixOperation2</span>
+                  <em>
+(<br>verify 78*19-46/23=1482;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression004_VerifyMixOperation4">
+                  </a> <!-- TCCalculator_Regression004_VerifyMixOperation4 -->
+                  <span class="method-name">TCCalculator_Regression004_VerifyMixOperation4</span>
+                  <em>
+(<br>verify 7*8*9=504;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression005_VerifyMixOperation5">
+                  </a> <!-- TCCalculator_Regression005_VerifyMixOperation5 -->
+                  <span class="method-name">TCCalculator_Regression005_VerifyMixOperation5</span>
+                  <em>
+(<br>verify 61-1-4=56;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression006_VerifyMixOperation6">
+                  </a> <!-- TCCalculator_Regression006_VerifyMixOperation6 -->
+                  <span class="method-name">TCCalculator_Regression006_VerifyMixOperation6</span>
+                  <em>
+(<br>verify 45+4+5=54;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression007_VerifyMixOperation7">
+                  </a> <!-- TCCalculator_Regression007_VerifyMixOperation7 -->
+                  <span class="method-name">TCCalculator_Regression007_VerifyMixOperation7</span>
+                  <em>
+(<br>verify 0/99=0;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Regression008_VerifyMixOperation8">
+                  </a> <!-- TCCalculator_Regression008_VerifyMixOperation8 -->
+                  <span class="method-name">TCCalculator_Regression008_VerifyMixOperation8</span>
+                  <em>
+(<br>verify 9/0=Infinity;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Smoke001_VerifyOnePlusTwo">
+                  </a> <!-- TCCalculator_Smoke001_VerifyOnePlusTwo -->
+                  <span class="method-name">TCCalculator_Smoke001_VerifyOnePlusTwo</span>
+                  <em>
+(<br>verify 1 + 1 = 2;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Smoke002_VerifyNineMinusThree">
+                  </a> <!-- TCCalculator_Smoke002_VerifyNineMinusThree -->
+                  <span class="method-name">TCCalculator_Smoke002_VerifyNineMinusThree</span>
+                  <em>
+(<br>verify 9 - 3 = 6;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Smoke003_VerifyFourMultiFive">
+                  </a> <!-- TCCalculator_Smoke003_VerifyFourMultiFive -->
+                  <span class="method-name">TCCalculator_Smoke003_VerifyFourMultiFive</span>
+                  <em>
+(<br>verify 4 * 5 = 20;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Smoke004_VerifyEightDivFour">
+                  </a> <!-- TCCalculator_Smoke004_VerifyEightDivFour -->
+                  <span class="method-name">TCCalculator_Smoke004_VerifyEightDivFour</span>
+                  <em>
+(<br>verify 8 / 4 = 2;<br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero">
+                  </a> <!-- TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero -->
+                  <span class="method-name">TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero</span>
+                  <em>
+(<br>verify 7*1+6/2-0 = 10 <br>)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_suite-class-passed -->
+        </div> <!-- panel test_suite -->
+        <div panel-name="test-xml-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Owner\eclipse-workspace\calculatorTest\test\testng-smoke.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;test suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.calculator.test.TCCalculator&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TCCalculator_Smoke001_VerifyOnePlusTwo&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Smoke002_VerifyNineMinusThree&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Smoke003_VerifyFourMultiFive&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Smoke004_VerifyEightDivFour&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression001_VerifyMixOperation1&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression002_VerifyMixOperation2&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression003_VerifyMixOperation3&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression004_VerifyMixOperation4&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression005_VerifyMixOperation5&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression006_VerifyMixOperation6&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression007_VerifyMixOperation7&quot;/&gt;
+          &lt;include name=&quot;TCCalculator_Regression008_VerifyMixOperation8&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.calculator.test.TCCalculator --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression001_VerifyMixOperation1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression002_VerifyMixOperation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression003_VerifyMixOperation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression004_VerifyMixOperation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression005_VerifyMixOperation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression006_VerifyMixOperation6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression007_VerifyMixOperation7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression008_VerifyMixOperation8</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression001_VerifyMixOperation1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression002_VerifyMixOperation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression003_VerifyMixOperation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression004_VerifyMixOperation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression005_VerifyMixOperation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression006_VerifyMixOperation6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression007_VerifyMixOperation7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression008_VerifyMixOperation8</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke001_VerifyOnePlusTwo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke002_VerifyNineMinusThree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke003_VerifyFourMultiFive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke004_VerifyEightDivFour</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">div</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke004_VerifyEightDivFour</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">minus</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke002_VerifyNineMinusThree</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">mix</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression001_VerifyMixOperation1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression002_VerifyMixOperation2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression003_VerifyMixOperation3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression004_VerifyMixOperation4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression005_VerifyMixOperation5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression006_VerifyMixOperation6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression007_VerifyMixOperation7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Regression008_VerifyMixOperation8</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">multi</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke003_VerifyFourMultiFive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">plus</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TCCalculator_Smoke001_VerifyOnePlusTwo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_test_suite');
+function tableData_test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TCCalculator_Regression002_VerifyMixOperation2')
+data.setCell(0, 2, 'com.calculator.test.TCCalculator')
+data.setCell(0, 3, 1918);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TCCalculator_Regression001_VerifyMixOperation1')
+data.setCell(1, 2, 'com.calculator.test.TCCalculator')
+data.setCell(1, 3, 1587);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero')
+data.setCell(2, 2, 'com.calculator.test.TCCalculator')
+data.setCell(2, 3, 1479);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TCCalculator_Smoke001_VerifyOnePlusTwo')
+data.setCell(3, 2, 'com.calculator.test.TCCalculator')
+data.setCell(3, 3, 1159);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TCCalculator_Smoke004_VerifyEightDivFour')
+data.setCell(4, 2, 'com.calculator.test.TCCalculator')
+data.setCell(4, 3, 1096);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TCCalculator_Regression003_VerifyMixOperation3')
+data.setCell(5, 2, 'com.calculator.test.TCCalculator')
+data.setCell(5, 3, 1047);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TCCalculator_Smoke002_VerifyNineMinusThree')
+data.setCell(6, 2, 'com.calculator.test.TCCalculator')
+data.setCell(6, 3, 1007);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TCCalculator_Smoke003_VerifyFourMultiFive')
+data.setCell(7, 2, 'com.calculator.test.TCCalculator')
+data.setCell(7, 3, 991);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TCCalculator_Regression005_VerifyMixOperation5')
+data.setCell(8, 2, 'com.calculator.test.TCCalculator')
+data.setCell(8, 3, 985);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TCCalculator_Regression006_VerifyMixOperation6')
+data.setCell(9, 2, 'com.calculator.test.TCCalculator')
+data.setCell(9, 3, 945);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TCCalculator_Regression004_VerifyMixOperation4')
+data.setCell(10, 2, 'com.calculator.test.TCCalculator')
+data.setCell(10, 3, 915);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TCCalculator_Regression007_VerifyMixOperation7')
+data.setCell(11, 2, 'com.calculator.test.TCCalculator')
+data.setCell(11, 3, 763);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TCCalculator_Regression008_VerifyMixOperation8')
+data.setCell(12, 2, 'com.calculator.test.TCCalculator')
+data.setCell(12, 3, 709);
+window.suiteTableData['test_suite']= { tableData: data, tableDiv: 'times-div-test_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-test_suite">
+              </div> <!-- times-div-test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.calculator.test.TCCalculator</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo() throws java.la...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Smoke001_VerifyOnePlusTwo</span>
+                <span class="method-start">6040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo() throws java.la...)</span>
+                <span class="method-start">7201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree() throws jav...)</span>
+                <span class="method-start">9211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Smoke002_VerifyNineMinusThree</span>
+                <span class="method-start">14225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree() throws jav...)</span>
+                <span class="method-start">15235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive() throws java...)</span>
+                <span class="method-start">16855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Smoke003_VerifyFourMultiFive</span>
+                <span class="method-start">21452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive() throws java...)</span>
+                <span class="method-start">22444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour() throws java....)</span>
+                <span class="method-start">24110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Smoke004_VerifyEightDivFour</span>
+                <span class="method-start">29230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour() throws java....)</span>
+                <span class="method-start">30328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMi...)</span>
+                <span class="method-start">31983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero</span>
+                <span class="method-start">36055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMi...)</span>
+                <span class="method-start">37535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression001_VerifyMixOperation1() throws...)</span>
+                <span class="method-start">39162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression001_VerifyMixOperation1</span>
+                <span class="method-start">43377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression001_VerifyMixOperation1() throws...)</span>
+                <span class="method-start">44965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression002_VerifyMixOperation2() throws...)</span>
+                <span class="method-start">46633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression002_VerifyMixOperation2</span>
+                <span class="method-start">51039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression002_VerifyMixOperation2() throws...)</span>
+                <span class="method-start">52959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3() throws...)</span>
+                <span class="method-start">54591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TCCalculator_Regression003_VerifyMixOperation3</span>
+                <span class="method-start">58767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3() throws...)</span>
+                <span class="method-start">59829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression004_VerifyMixOperation4() throws...)</span>
+                <span class="method-start">61454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression004_VerifyMixOperation4</span>
+                <span class="method-start">65654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression004_VerifyMixOperation4() throws...)</span>
+                <span class="method-start">66570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression005_VerifyMixOperation5() throws...)</span>
+                <span class="method-start">68246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression005_VerifyMixOperation5</span>
+                <span class="method-start">72449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression005_VerifyMixOperation5() throws...)</span>
+                <span class="method-start">73435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression006_VerifyMixOperation6() throws...)</span>
+                <span class="method-start">75077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression006_VerifyMixOperation6</span>
+                <span class="method-start">80216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression006_VerifyMixOperation6() throws...)</span>
+                <span class="method-start">81162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression007_VerifyMixOperation7() throws...)</span>
+                <span class="method-start">82844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression007_VerifyMixOperation7</span>
+                <span class="method-start">87016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression007_VerifyMixOperation7() throws...)</span>
+                <span class="method-start">87780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression008_VerifyMixOperation8() throws...)</span>
+                <span class="method-start">89395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCCalculator_Regression008_VerifyMixOperation8</span>
+                <span class="method-start">93544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest(public void com.calculator.test.TCCalculator.TCCalculator_Regression008_VerifyMixOperation8() throws...)</span>
+                <span class="method-start">94254 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

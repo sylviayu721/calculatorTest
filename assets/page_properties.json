@@ -1,0 +1,29 @@
+{
+		 "common" : 
+		 {
+		 	"pageName" : "welcome to calculator",
+		 	"mainUrl" : "http://output.jsbin.com/hudape/1/"
+		 },
+		 "calculator" :
+		 {
+		 	"pageName" : "calculator page",
+		 	"buttonOne" : "button[value='1']",
+		 	"buttonTwo" : "button[value='2']",
+		 	"buttonThree" : "button[value='3']",
+		 	"buttonFour" : "button[value='4']",
+		 	"buttonFive" : "button[value='5']",
+		 	"buttonSix" : "button[value='6']",
+		 	"buttonSeven" : "button[value='7']",
+		 	"buttonEight" : "button[value='8']",
+		 	"buttonNine" : "button[value='9']",
+		 	"buttonZero" : "button[value='0']",
+		 	"buttonEQ" : "button[value='=']",
+		 	"buttonPlus" : "button[value='+']",
+		 	"buttonMinus" : "button[value='-']",
+			"buttonMulti" : "button[value='×']",
+			"buttonDiv" : "button[value='/']",
+			"buttonDEL" : "div button[value='DEL']",
+			"inputExpress" : "input#expression",
+			"outputResult" : "div#output"
+		 }
+}

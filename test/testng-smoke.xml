@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite">
+	<test name="Test">
+		<classes>
+			<class name="com.calculator.test.TCCalculator">
+				<methods>
+					<include name="TCCalculator_Smoke001_VerifyOnePlusTwo" /> 
+					<include name="TCCalculator_Smoke002_VerifyNineMinusThree" /> 
+					<include name="TCCalculator_Smoke003_VerifyFourMultiFive" /> 
+					<include name="TCCalculator_Smoke004_VerifyEightDivFour" /> 
+					<include name="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero" />
+					<include name="TCCalculator_Regression001_VerifyMixOperation1" /> 
+					<include name="TCCalculator_Regression002_VerifyMixOperation2" /> 
+					<include name="TCCalculator_Regression003_VerifyMixOperation3" /> 
+					<include name="TCCalculator_Regression004_VerifyMixOperation4" /> 
+					<include name="TCCalculator_Regression005_VerifyMixOperation5" /> 
+					<include name="TCCalculator_Regression006_VerifyMixOperation6" /> 
+					<include name="TCCalculator_Regression007_VerifyMixOperation7" /> 
+					<include name="TCCalculator_Regression008_VerifyMixOperation8" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Regression test -->
+</suite> <!-- [Regression suite] -->

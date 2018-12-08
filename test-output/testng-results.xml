@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test suite" duration-ms="95898" started-at="2018-12-08T20:03:43Z" finished-at="2018-12-08T20:05:19Z">
+    <groups>
+      <group name="div">
+        <method signature="TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke004_VerifyEightDivFour" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- div -->
+      <group name="minus">
+        <method signature="TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke002_VerifyNineMinusThree" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- minus -->
+      <group name="Regression">
+        <method signature="TCCalculator.TCCalculator_Regression001_VerifyMixOperation1()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression001_VerifyMixOperation1" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression002_VerifyMixOperation2()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression002_VerifyMixOperation2" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression003_VerifyMixOperation3()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression003_VerifyMixOperation3" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression004_VerifyMixOperation4()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression004_VerifyMixOperation4" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression005_VerifyMixOperation5()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression005_VerifyMixOperation5" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression006_VerifyMixOperation6()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression006_VerifyMixOperation6" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression007_VerifyMixOperation7()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression007_VerifyMixOperation7" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression008_VerifyMixOperation8()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression008_VerifyMixOperation8" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TCCalculator.TCCalculator_Regression001_VerifyMixOperation1()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression001_VerifyMixOperation1" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression002_VerifyMixOperation2()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression002_VerifyMixOperation2" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression003_VerifyMixOperation3()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression003_VerifyMixOperation3" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression004_VerifyMixOperation4()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression004_VerifyMixOperation4" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression005_VerifyMixOperation5()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression005_VerifyMixOperation5" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression006_VerifyMixOperation6()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression006_VerifyMixOperation6" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression007_VerifyMixOperation7()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression007_VerifyMixOperation7" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression008_VerifyMixOperation8()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression008_VerifyMixOperation8" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke001_VerifyOnePlusTwo" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke002_VerifyNineMinusThree" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke003_VerifyFourMultiFive" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke004_VerifyEightDivFour" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- Smoke -->
+      <group name="mix">
+        <method signature="TCCalculator.TCCalculator_Regression001_VerifyMixOperation1()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression001_VerifyMixOperation1" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression002_VerifyMixOperation2()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression002_VerifyMixOperation2" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression003_VerifyMixOperation3()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression003_VerifyMixOperation3" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression004_VerifyMixOperation4()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression004_VerifyMixOperation4" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression005_VerifyMixOperation5()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression005_VerifyMixOperation5" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression006_VerifyMixOperation6()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression006_VerifyMixOperation6" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression007_VerifyMixOperation7()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression007_VerifyMixOperation7" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Regression008_VerifyMixOperation8()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression008_VerifyMixOperation8" class="com.calculator.test.TCCalculator"/>
+        <method signature="TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- mix -->
+      <group name="plus">
+        <method signature="TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke001_VerifyOnePlusTwo" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- plus -->
+      <group name="multi">
+        <method signature="TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke003_VerifyFourMultiFive" class="com.calculator.test.TCCalculator"/>
+      </group> <!-- multi -->
+    </groups>
+    <test name="Test" duration-ms="95898" started-at="2018-12-08T20:03:43Z" finished-at="2018-12-08T20:05:19Z">
+      <class name="com.calculator.test.TCCalculator">
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="6040" started-at="2018-12-08T15:03:43Z" description="Getting test Method Name" finished-at="2018-12-08T15:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Smoke001_VerifyOnePlusTwo()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke001_VerifyOnePlusTwo" duration-ms="1159" started-at="2018-12-08T15:03:49Z" description="&lt;br&gt;verify 1 + 1 = 2;&lt;br&gt;" finished-at="2018-12-08T15:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Smoke001_VerifyOnePlusTwo -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="2010" started-at="2018-12-08T15:03:50Z" description="Tear Down method" finished-at="2018-12-08T15:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke001_VerifyOnePlusTwo() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="5014" started-at="2018-12-08T15:03:52Z" description="Getting test Method Name" finished-at="2018-12-08T15:03:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Smoke002_VerifyNineMinusThree()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke002_VerifyNineMinusThree" duration-ms="1007" started-at="2018-12-08T15:03:57Z" description="&lt;br&gt;verify 9 - 3 = 6;&lt;br&gt;" finished-at="2018-12-08T15:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Smoke002_VerifyNineMinusThree -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1620" started-at="2018-12-08T15:03:58Z" description="Tear Down method" finished-at="2018-12-08T15:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke002_VerifyNineMinusThree() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4597" started-at="2018-12-08T15:04:00Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Smoke003_VerifyFourMultiFive()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke003_VerifyFourMultiFive" duration-ms="991" started-at="2018-12-08T15:04:05Z" description="&lt;br&gt;verify 4 * 5 = 20;&lt;br&gt;" finished-at="2018-12-08T15:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Smoke003_VerifyFourMultiFive -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1666" started-at="2018-12-08T15:04:06Z" description="Tear Down method" finished-at="2018-12-08T15:04:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke003_VerifyFourMultiFive() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="5120" started-at="2018-12-08T15:04:07Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Smoke004_VerifyEightDivFour()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke004_VerifyEightDivFour" duration-ms="1096" started-at="2018-12-08T15:04:12Z" description="&lt;br&gt;verify 8 / 4 = 2;&lt;br&gt;" finished-at="2018-12-08T15:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Smoke004_VerifyEightDivFour -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1654" started-at="2018-12-08T15:04:14Z" description="Tear Down method" finished-at="2018-12-08T15:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke004_VerifyEightDivFour() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4072" started-at="2018-12-08T15:04:15Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero" duration-ms="1479" started-at="2018-12-08T15:04:19Z" description="&lt;br&gt;verify 7*1+6/2-0 = 10 &lt;br&gt;" finished-at="2018-12-08T15:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1626" started-at="2018-12-08T15:04:21Z" description="Tear Down method" finished-at="2018-12-08T15:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Smoke005_VerifySevenMultOnePlusSixDivTwoMinusZero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4215" started-at="2018-12-08T15:04:22Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression001_VerifyMixOperation1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression001_VerifyMixOperation1()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression001_VerifyMixOperation1" duration-ms="1587" started-at="2018-12-08T15:04:27Z" description="&lt;br&gt;verify 12*34+56/7=416;&lt;br&gt;" finished-at="2018-12-08T15:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression001_VerifyMixOperation1 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1668" started-at="2018-12-08T15:04:28Z" description="Tear Down method" finished-at="2018-12-08T15:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression001_VerifyMixOperation1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4406" started-at="2018-12-08T15:04:30Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression002_VerifyMixOperation2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression002_VerifyMixOperation2()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression002_VerifyMixOperation2" duration-ms="1918" started-at="2018-12-08T15:04:34Z" description="&lt;br&gt;verify 78*19-46/23=1482;&lt;br&gt;" finished-at="2018-12-08T15:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression002_VerifyMixOperation2 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1632" started-at="2018-12-08T15:04:36Z" description="Tear Down method" finished-at="2018-12-08T15:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression002_VerifyMixOperation2() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4176" started-at="2018-12-08T15:04:38Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="TCCalculator_Regression003_VerifyMixOperation3()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression003_VerifyMixOperation3" duration-ms="1047" started-at="2018-12-08T15:04:42Z" description="&lt;br&gt;verify 99/3/11=3;&lt;br&gt;" finished-at="2018-12-08T15:04:43Z">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<3[.193548387096774]> but was:<3[]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<3[.193548387096774]> but was:<3[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.calculator.page.WebPage.verifyElementText(WebPage.java:48)
+	at com.calculator.page.CalculatorPage.verifyResult(CalculatorPage.java:89)
+	at com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3(TCCalculator.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression003_VerifyMixOperation3 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1624" started-at="2018-12-08T15:04:43Z" description="Tear Down method" finished-at="2018-12-08T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression003_VerifyMixOperation3() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4200" started-at="2018-12-08T15:04:45Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression004_VerifyMixOperation4() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression004_VerifyMixOperation4()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression004_VerifyMixOperation4" duration-ms="915" started-at="2018-12-08T15:04:49Z" description="&lt;br&gt;verify 7*8*9=504;&lt;br&gt;" finished-at="2018-12-08T15:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression004_VerifyMixOperation4 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1676" started-at="2018-12-08T15:04:50Z" description="Tear Down method" finished-at="2018-12-08T15:04:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression004_VerifyMixOperation4() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4203" started-at="2018-12-08T15:04:51Z" description="Getting test Method Name" finished-at="2018-12-08T15:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression005_VerifyMixOperation5() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression005_VerifyMixOperation5()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression005_VerifyMixOperation5" duration-ms="985" started-at="2018-12-08T15:04:56Z" description="&lt;br&gt;verify 61-1-4=56;&lt;br&gt;" finished-at="2018-12-08T15:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression005_VerifyMixOperation5 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1642" started-at="2018-12-08T15:04:57Z" description="Tear Down method" finished-at="2018-12-08T15:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression005_VerifyMixOperation5() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="5139" started-at="2018-12-08T15:04:58Z" description="Getting test Method Name" finished-at="2018-12-08T15:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression006_VerifyMixOperation6() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression006_VerifyMixOperation6()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression006_VerifyMixOperation6" duration-ms="945" started-at="2018-12-08T15:05:03Z" description="&lt;br&gt;verify 45+4+5=54;&lt;br&gt;" finished-at="2018-12-08T15:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression006_VerifyMixOperation6 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1682" started-at="2018-12-08T15:05:04Z" description="Tear Down method" finished-at="2018-12-08T15:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression006_VerifyMixOperation6() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4172" started-at="2018-12-08T15:05:06Z" description="Getting test Method Name" finished-at="2018-12-08T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression007_VerifyMixOperation7() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression007_VerifyMixOperation7()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression007_VerifyMixOperation7" duration-ms="763" started-at="2018-12-08T15:05:10Z" description="&lt;br&gt;verify 0/99=0;&lt;br&gt;" finished-at="2018-12-08T15:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression007_VerifyMixOperation7 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1615" started-at="2018-12-08T15:05:11Z" description="Tear Down method" finished-at="2018-12-08T15:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression007_VerifyMixOperation7() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="beforeTest" is-config="true" duration-ms="4149" started-at="2018-12-08T15:05:13Z" description="Getting test Method Name" finished-at="2018-12-08T15:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression008_VerifyMixOperation8() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TCCalculator_Regression008_VerifyMixOperation8()[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="TCCalculator_Regression008_VerifyMixOperation8" duration-ms="709" started-at="2018-12-08T15:05:17Z" description="&lt;br&gt;verify 9/0=Infinity;&lt;br&gt;" finished-at="2018-12-08T15:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCCalculator_Regression008_VerifyMixOperation8 -->
+        <test-method status="PASS" signature="afterTest(java.lang.reflect.Method)[pri:0, instance:com.calculator.test.TCCalculator@e5eea7]" name="afterTest" is-config="true" duration-ms="1621" started-at="2018-12-08T15:05:17Z" description="Tear Down method" finished-at="2018-12-08T15:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.calculator.test.TCCalculator.TCCalculator_Regression008_VerifyMixOperation8() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.calculator.test.TCCalculator -->
+    </test> <!-- Test -->
+  </suite> <!-- test suite -->
+</testng-results>
